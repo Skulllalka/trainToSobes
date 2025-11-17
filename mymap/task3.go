@@ -20,11 +20,15 @@ func NewWordCounter(limit int) *WordCount {
 }
 
 func (wc *WordCount) CountWord(word string) {
+	if _, ok := wc.counts[word]; !ok{
+		wc.order = append(wc.order, word)
+	}
 	wc.counts[word]++
-	wc.order = append(wc.order)
-	// if len(wc.counts) > wc.limit {
-	// 	wc.counts
-	// }
+	if len(wc.counts) > wc.limit {
+		oldest := wc.order[0]
+		wc.order = wc.order[1:]
+		delete(wc.counts, oldest)
+	}
 }
 
 func Task3() {
@@ -36,6 +40,5 @@ func Task3() {
 		wc.CountWord(word)
 	}
 	pp.Print(wc.counts)
-    pp.Print (wc)
-	pp.Print("test")
+	
 }
