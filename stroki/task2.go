@@ -1,5 +1,5 @@
 package stroki
 
-func Task2(){
-	
+func Task2() {
+
 }
