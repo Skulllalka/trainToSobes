@@ -2,8 +2,10 @@ package main
 
 import (
 	"github.com/Skulllalka/trainToSobes/mymap"
-	//"github.com/Skulllalka/trainToSobes/stroki"
+	"github.com/k0kubun/pp"
 )
+
+//"github.com/Skulllalka/trainToSobes/stroki"
 
 // type Item struct {
 // 	Name  *string
@@ -22,5 +24,13 @@ import (
 func main() {
 	//stroki.Task1()
 
-	mymap.Task3()
+	//mymap.Task3()
+
+	m := map[string][]string{
+		"fruits":  {"apple", "banana"},
+		"animals": {"dog", "cat"},
+	}
+	pp.Print("Befor func:", m, )
+	mymap.MergeToMap(m,[]string{"banana", "kiwi","kiwi","kiwi","kiwi","kiwi"}, "fruits")
+	pp.Print("After func:",m)
 }
