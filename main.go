@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/Skulllalka/trainToSobes/stroki"
+	"github.com/Skulllalka/trainToSobes/mymap"
+	//"github.com/Skulllalka/trainToSobes/stroki"
 )
 
 // type Item struct {
@@ -19,6 +20,7 @@ import (
 // }
 
 func main() {
-	stroki.Task1()
+	//stroki.Task1()
 
+	mymap.Task3()
 }
