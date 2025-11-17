@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/Skulllalka/trainToSobes/mymap"
-	"github.com/k0kubun/pp"
+	//"github.com/k0kubun/pp"
 )
 
 //"github.com/Skulllalka/trainToSobes/stroki"
@@ -26,11 +26,14 @@ func main() {
 
 	//mymap.Task3()
 
-	m := map[string][]string{
-		"fruits":  {"apple", "banana"},
-		"animals": {"dog", "cat"},
-	}
-	pp.Print("Befor func:", m, )
-	mymap.MergeToMap(m,[]string{"banana", "kiwi","kiwi","kiwi","kiwi","kiwi"}, "fruits")
-	pp.Print("After func:",m)
+	// m := map[string][]string{
+	// 	"fruits":  {"apple", "banana"},
+	// 	"animals": {"dog", "cat"},
+	// }
+	// pp.Print("Befor func:", m, )
+	// mymap.MergeToMap(m,[]string{"banana", "kiwi","kiwi","kiwi","kiwi","kiwi"}, "fruits")
+	// pp.Print("After func:",m)
+
+	mymap.Task5()
+	
 }

@@ -1,6 +1,8 @@
 package mymap
 
-import "slices"
+import (
+	"slices"
+)
 
 func MergeToMap(data map[string][]string, newValues []string, key string){
 	if _, ok := data[key]; ok {
