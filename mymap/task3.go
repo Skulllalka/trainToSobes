@@ -37,4 +37,5 @@ func Task3() {
 	}
 	pp.Print(wc.counts)
     pp.Print (wc)
+	pp.Print("asdas")
 }
