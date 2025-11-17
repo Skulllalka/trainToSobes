@@ -12,5 +12,4 @@ func MergeToMap(data map[string][]string, newValues []string, key string){
 		return
 	}
 	data[key]=newValues
-	return
 }
