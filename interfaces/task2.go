@@ -9,5 +9,5 @@ func (c *CusstomError) Error() string{
 }
 
 func Handle() error {
-	return &CusstomError{"ты большая ошибка жизни!"}
+	return &CusstomError{message: "ты большая ошибка жизни!"}
 }
