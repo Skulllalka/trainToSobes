@@ -1,8 +1,12 @@
 package main
 
 import (
-	"github.com/Skulllalka/trainToSobes/mymap"
-	//"github.com/k0kubun/pp"
+	"fmt"
+
+	"github.com/Skulllalka/trainToSobes/interfaces"
+	// "github.com/Skulllalka/trainToSobes/mymap"
+	// "github.com/k0kubun/pp"
+	
 )
 
 //"github.com/Skulllalka/trainToSobes/stroki"
@@ -34,6 +38,6 @@ func main() {
 	// mymap.MergeToMap(m,[]string{"banana", "kiwi","kiwi","kiwi","kiwi","kiwi"}, "fruits")
 	// pp.Print("After func:",m)
 
-	mymap.Task5()
-	
+	//mymap.Task5()
+	fmt.Println(interfaces.Handle())
 }
