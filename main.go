@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 
-	"github.com/Skulllalka/trainToSobes/interfaces"
+	"github.com/Skulllalka/trainToSobes/conc"
+	//"github.com/Skulllalka/trainToSobes/interfaces"
 	// "github.com/Skulllalka/trainToSobes/mymap"
 	// "github.com/k0kubun/pp"
-	
 )
 
 //"github.com/Skulllalka/trainToSobes/stroki"
@@ -39,5 +39,7 @@ func main() {
 	// pp.Print("After func:",m)
 
 	//mymap.Task5()
-	fmt.Println(interfaces.Handle())
+	// fmt.Println(interfaces.Handle())
+
+	conc.PseudoMain()
 }
