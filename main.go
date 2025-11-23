@@ -41,5 +41,5 @@ func main() {
 	//mymap.Task5()
 	// fmt.Println(interfaces.Handle())
 
-	conc.PseudoMain()
+	conc.Task4Main()
 }
