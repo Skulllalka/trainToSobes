@@ -1,13 +1,13 @@
 package main
 
-import (
-	//"fmt"
+import "github.com/Skulllalka/trainToSobes/solutions"
 
-	"github.com/Skulllalka/trainToSobes/conc"
-	//"github.com/Skulllalka/trainToSobes/interfaces"
-	// "github.com/Skulllalka/trainToSobes/mymap"
-	// "github.com/k0kubun/pp"
-)
+//"fmt"
+
+// "github.com/Skulllalka/trainToSobes/conc"
+//"github.com/Skulllalka/trainToSobes/interfaces"
+// "github.com/Skulllalka/trainToSobes/mymap"
+// "github.com/k0kubun/pp"
 
 //"github.com/Skulllalka/trainToSobes/stroki"
 
@@ -41,5 +41,7 @@ func main() {
 	//mymap.Task5()
 	// fmt.Println(interfaces.Handle())
 
-	conc.Task4Main()
+	// conc.Task4Main()
+
+	solutions.UrlsMain()
 }
