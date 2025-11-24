@@ -43,5 +43,5 @@ func main() {
 
 	// conc.Task4Main()
 
-	solutions.UrlsMain()
+	solutions.GenSqrMain()
 }
